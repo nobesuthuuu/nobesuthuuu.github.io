@@ -1,32 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Nobesuthu Ngwenya - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 100px;
-    }
-    a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      color: white;
-      background-color: #0073b1;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    a.resume {
-      background-color: #333;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobesuthu Ngwenya | Student Portfolio</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-  <h1>Nobesuthu Ngwenya</h1>
-  <p>Data Science Student | Process Engineer</p>
-  <a class="resume" href="resume.pdf" target="_blank">View My Resume</a>
-  <a href="https://www.linkedin.com/in/nobesuthungwenya23" target="_blank">Visit My LinkedIn</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NN</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="nobesuthuuu.jpg" alt="Nobesuthu Ngwenya" class="profile-img">
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Nobesuthu Ngwenya</span>
+                    <span class="title">Data Science Student|Chemical Engineer|Researcher</span>
+                </h1>
+                <p class="hero-subtitle">Passionate about turning data into solutions to real-world problems.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/nobesuthuuu" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nobesuthungwenya23"  target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Hi! I’m Nobesuthu. I enjoy turning raw data into code and actionable insights, discovering new places, and playing the piano. Let’s connect and create something awesome!
+                    </p>
+                    <div class="skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Cement Plant Dust Emissions Optimization</h3>
+                        <p class="project-description">
+                          This project utilized Python(Pandas, Matplotlib), and SQL to identify and reduce key factors contributing to high dust emissions in a cement manufacturing plant.
+
+                        
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python, SQL</span>
+          
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nobesuthuuu" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </article
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always interested in new opportunities and collaborations. 
+                    Feel free to reach out if you'd like to work together or just say hello!
+                </p>
+                <div class="contact-cards">
+                    <a href="https://github.com/nobesuthuuu" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>View my repositories and code projects</p>
+                    </a>
+
+                    <a href= "https://www.linkedin.com/in/nobesuthungwenya23" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me professionally</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Nobesuthu Ngwenya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="JS.js"></script>
 </body>
 </html>
+
+
